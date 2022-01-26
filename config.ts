@@ -1,53 +1,54 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core"
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import { NavbarLinkProps } from "./components/navbar-link"
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { NavbarLinkProps } from "./components/navbar-link";
 
 type SocialLinkProps = {
-    icon: IconProp,
-    url: string
-}
+  icon: IconProp;
+  url: string;
+};
 
 type ConfigProps = {
-    socialLinks: SocialLinkProps[],
-    navbarLinks: NavbarLinkProps[]
-    blogDescription: string
-}
+  socialLinks: SocialLinkProps[];
+  navbarLinks: NavbarLinkProps[];
+  blogDescription: string;
+};
 
 // config.ts
 const Config: ConfigProps = {
-    socialLinks: [
-        {
-            icon: faTwitter,
-            url: "#"
-        },
-        {
-            icon: faInstagram,
-            url: "#"
-        }
-    ],
-    navbarLinks: [
-        {
-            text: "Link 1",
-            href: "#"
-        },
-        {
-            text: "Link 2",
-            href: "#"
-        },
-        {
-            text: "Link 3",
-            href: "#"
-        },
-        {
-            text: "Link 4",
-            href: "#"
-        },
-        {
-            text: "Link 5",
-            href: "#"
-        }
-    ],
-    blogDescription: "I write tech articles about my side-projects"
-}
+  socialLinks: [
+    {
+      icon: faTwitter,
+      url: "#",
+    },
+    {
+      icon: faInstagram,
+      url: "#",
+    },
+  ],
+  navbarLinks: [
+    {
+      text: "Link 1",
+      href: "#",
+    },
+    {
+      text: "Link 2",
+      href: "#",
+    },
+    {
+      text: "Link 3",
+      href: "#",
+    },
+    {
+      text: "Link 4",
+      href: "#",
+    },
+    {
+      text: "Link 5",
+      href: "#",
+    },
+  ],
+  blogDescription:
+    "We write tech articles and check your knowledge about it with MCQ protocole !",
+};
 
-export default Config
+export default Config;

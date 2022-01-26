@@ -1,9 +1,9 @@
 ---
-title: 'Your first blog post'
-date: '2021-01-01'
-description: 'Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet '
-coverUrl: 'https://i.imgur.com/8MNpdtD.png'
-tags: 'nextjs,tailwindcss'
+title: "Your first blog post"
+date: "2021-01-01"
+description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet "
+coverUrl: "https://www.studyrama.com/IMG/arton87963.jpg"
+tags: "nextjs,tailwindcss"
 ---
 
 # Heading 1 example?
@@ -16,7 +16,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ```js
 const foo = {
-	bar: "bar"
-}
+  bar: "bar",
+};
 ```
-
