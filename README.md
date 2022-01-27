@@ -1,6 +1,6 @@
 If you want to have your Next.js custom blog and don't want to build it from scratch, this boilerplate is for you
 
-![post using indigo theme](https://i.imgur.com/o4I8SBZ.png)
+
 <br/>
 
 # Features
